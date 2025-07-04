@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abhishek's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">ABHISHEK</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="home">
+    <div class="intro-left">
+      <p class="let">Let me share a little bit</p>
+      <p class="about">About me</p>
+      <hr />
+      <p class="name">Abhishek Dewangan</p>
+      <hr />
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+    <div class="intro-right">
+      <img src="myPhoto.jpg" alt="Profile Photo" />
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2 class="hello">Hello viewers,</h2>
+    <p class="para">I am a driven and curious BTech student with passion for programming, innovation and personal growth. I constantly explore my strengths, values and goals to better shape my future.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <p class="sub">Some of my recent works</p>
+    <div class="project-container">
+      <div class="card">
+        <h3>Rock, Paper and Scissors Game</h3>
+        <a href="https://dewangan15abhishek.github.io/Rock-Paper-Scissors-Game/" class="btn" onclick="this.textContent='Visited'; this.style.backgroundColor='green'; return false;">Visit →</a>
+      </div>
+      <div class="card">
+        <h3>Colour Changing Page</h3>
+        <a href="https://dewangan15abhishek.github.io/Colour-Changing-Page/" class="btn" onclick="this.textContent='Visited'; this.style.backgroundColor='green'; return false;">Visit →</a>
+      </div>
+      <div class="card">
+        <h3>Dice Decider</h3>
+        <a href="https://dewangan15abhishek.github.io/Dice-Decider/" class="btn" onclick="this.textContent='Visited'; this.style.backgroundColor='green'; return false;">Visit →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>My Skills & Achievements</h2>
+    <p class="sub">Technologies and concepts I’ve learned</p>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>HTML & CSS</h3>
+        <p>Used together to structure and style websites with layout, fonts, colors, and responsiveness.</p>
+      </div>
+      <div class="skill-card">
+        <h3>JavaScript</h3>
+        <p>Makes websites interactive and dynamic for better user experience.</p>
+      </div>
+      <div class="skill-card">
+        <h3>C & C++</h3>
+        <p>Powerful programming languages used for efficient system development and object-oriented programming.</p>
+      </div>
+      <div class="skill-card">
+        <h3>OOP</h3>
+        <p>Concept that organizes code into objects for modular design and reusability.</p>
+      </div>
+      <div class="skill-card">
+        <h3>DBMS</h3>
+        <p>Understanding of how databases are structured, queried, and managed effectively.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Operating Systems</h3>
+        <p>Knowledge of OS concepts such as memory management, processes, scheduling, and file systems.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="date" />
+      <textarea placeholder="Your Message" rows="5"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="info">
+      <p><a href="https://www.linkedin.com/in/abhishek-dewangan-9b25b32aa">LinkedIn</a></p>
+      <p>1585abhishekdewangan@gmail.com</p>
+      <p><a href="https://github.com/Dewangan15abhishek">GitHub</a></p>
+    </div>
+  </section>
+</body>
+</html>
